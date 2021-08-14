@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+  <title>승민이의 연습하기!!</title>
+  <meta charset="utf-8">
+  <style>
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    h1{
+      font-family:arial;
+      font-size:50px;
+      text-align:center;
+      border-bottom:2px solid gray;
+      padding:20px;
+      margin:0;
+    }
+    #active{
+      color:red;
+    }
+    ol{
+      border-right:2px solid gray;
+      width:90px;
+      padding:20px;
+      margin:0;
+    }
+    #grid{
+      display:grid;
+      grid-template-columns:150px 1fr;
+    }
+    @media(max-width:800px){
+      #grid{
+        display:block;
+      }
+      ol{
+        border-right:none;
+      }
+      h1{
+        border-bottom:none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+  <div id="grid">
+    <ol>
+     <li><a href="1.html">HTML</a></li>
+     <li><a href="2.html"id="active">CSS</a></li>
+     <li><a href="3.html">JavaScript</a></li>
+    </ol>
+  <div>
+    <strong><h2>HTML<h2></strong>
+    <font size="4" color="gray">웹페이지를 만들기 위한 언어로 웹브라우저 위에서 동작하는 언어다.
+  </div>
+  </div>
+</body>
+</html
